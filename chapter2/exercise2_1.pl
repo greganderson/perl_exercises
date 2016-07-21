@@ -17,3 +17,13 @@ my $len = length($num);
 for (my $i = 1; $i <= 10; $i++) {
     printf("%2d * %${len}d = %d\n", $i, $num, $i * $num);
 }
+
+for my $i(1..10) {
+    printf("%2d * %${len}d = %d\n", $i, $num, $i * $num);
+}
+
+my $i = 1;
+while ($i <= 10) {
+    printf("%2d * %${len}d = %d\n", $i, $num, $i * $num);
+    $i++;
+}
