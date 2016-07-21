@@ -12,7 +12,6 @@ sub get_user_input {
     print "1 (yes) or 0 (no): ";
     my $num = <>;
     chomp($num);
-    #print "$num\n";
     while ($num !~ /^[10]$/) {
         print "Invalid input.\n";
         print "1 (yes) or 0 (no): ";
