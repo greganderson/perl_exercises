@@ -2,6 +2,9 @@ use strict;
 use warnings;
 use IO::Prompter;
 
+my $str = prompt "Enter a string: ";
+print "You entered: $str\n";
+
 my $num = prompt -num, 'Enter a number';
 print "Your number: $num\n";
 
